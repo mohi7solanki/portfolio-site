@@ -29,11 +29,11 @@
 
 @media(max-width:991px){
     .name .fa{
-        font-size: 90%;
+        font-size: 25px;
     }
 
     .display-4{
-        font-size: 25px;
+        font-size: 30px;
         padding-top:2px;
     }
 
@@ -42,5 +42,14 @@
 @media(max-width:576px){
     #main-image{
         margin-top: 10px;
+    }
+    .head{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-top: 35px !important;
+        padding-bottom: 25px !important;
+    }
+    .port-item .fa{
+        font-size: 20px !important;
     }
 }
